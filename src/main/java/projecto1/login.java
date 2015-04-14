@@ -6,11 +6,11 @@ import javax.inject.Named;
 
 @Named
 @SessionScoped
-public class Login {
+public class login {
 
 	private String name;
 
-	public Login() {
+	public login() {
 	}
 
 	public String getName() {
