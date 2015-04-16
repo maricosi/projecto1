@@ -29,9 +29,9 @@
 	display: block;
 	font-size: 3em;
 	-webkit-margin-before: 100px;
-	-webkit-margin-after : 0.67em;
-	-webkit-margin-start : 0px;
-	-webkit-margin-end : 0px;
+	-webkit-margin-after: 0.67em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
 	font-weight: bold;
 	color: black;
 }
@@ -241,8 +241,6 @@
 	border-bottom: 0;
 }
 
-
-
 /*Formatações Content */
 .content {
 	float: left;
@@ -255,10 +253,7 @@
 	overflow: hidden;
 }
 
-
-
 #article {
-	
 	border-width: 3px;
 	border-style: solid;
 	background-color: pink;
@@ -282,15 +277,14 @@
 	border-color: black;
 	text-align: left;
 	color: white;
-	
 }
 
 /*Formatações Footer */
 #footer {
-	positio:relative;
+	positio: relative;
 	margin: 20px;
 	height: auto;
-	width:auto;
+	width: auto;
 	background-color: black;
 	color: white;
 	font-size: 14px;
@@ -299,15 +293,21 @@
 	font-weight: normal;
 }
 
-
 #tabela1 {
 	align: "center";
 	border-color: DarkCyan;
 	border-width: thick;
-	border-style: solid
-	
+	border-style: solid; margin-left : auto;
+	margin-right: auto;
+	margin-left: auto;
 }
-#imagens{
-	max-width: 70%;
 
+#imagens {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 70%;
+}
+#legenda{
+	text-align: center;
 }
