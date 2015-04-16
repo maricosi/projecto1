@@ -6,8 +6,11 @@
 	xmlns:h="http://java.sun.com/jsf/html">
 
 <h:head>
-	<h:outputStylesheet library="css" name="../resources/css/style.css" />
+	<h:outputStylesheet library="css" name="style.css" />
+
 </h:head>
+
+
 <body>
 	<ui:composition template="../template/commonLayout.xhtml">
 
@@ -15,7 +18,37 @@
 			<article id="article">
 				<h1>Contactos</h1>
 				<section id="section">
-			
+					<p>Telefone: 912345678</p>
+					<br /> <br />
+					<p>
+						Email: <a href="mailto:associacaomarialaurinda@mail.pt">associacaomarialaurinda@mail.pt</a>
+					</p>
+					<br /> <br />
+					<p>Localização: Avenida Maria Laurinda nº 40 Sertã.</p>
+					<br /> <a
+						href="https://www.google.pt/maps/@39.8069204,-8.0899097,17z">
+						<img id="imagens" src="../resources/images/sede.jpg"></img>
+					</a> <br /> <br />
+					<table id="tabela1">
+						<thead>
+							<tr>
+								<th>Horario de Funcionamento</th>
+								<th data-priority="1">2ª a 5ª</th>
+								<th data-priority="2">6ª</th>
+								<th data-priority="3">Sábado</th>
+								<th data-priority="4">Domingo</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td></td>
+								<td>das 9h00 às 23h00</td>
+								<td>das 9h00 às 2h00</td>
+								<td>das 11h00 às 2h00</td>
+								<td>Das 15h00 às 21h00</td>
+							</tr>
+						</tbody>
+					</table>
 				</section>
 			</article>
 
