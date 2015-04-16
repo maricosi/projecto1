@@ -1,7 +1,7 @@
 @CHARSET "UTF-8";
 
 #bodypagina {
-	background-image: url("/projecto1/resources/images/fundo.jpg");
+	/* background-image: url("/projecto1/resources/images/fundo.jpg"); */
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -241,8 +241,11 @@
 	border-bottom: 0;
 }
 
+
+
 /*Formatações Content */
-#content {
+.content {
+	float: left;
 	margin: 20px;
 	height: auto;
 	border-style: solid;
@@ -252,33 +255,59 @@
 	overflow: hidden;
 }
 
+
+
 #article {
-	float: left;
-	position: relative;
+	
+	border-width: 3px;
+	border-style: solid;
 	background-color: pink;
 	width: 70%;
-	margin: 10px;
-	border-width: 1px;
-	border-style: solid;
+	height: auto;
+	margin: 20px;
+	border-color: black;
+	text-align: left;
+	color: white;
 }
 
-.aside {
+#aside {
 	float: right;
-	width: 25%;
-	border-width: 1px;
+	border-width: 3px;
 	border-style: solid;
 	background-color: green;
-	margin: 10px;
+	width: 25%;
+	height: auto;
+	margin: 20px;
+	border-style: solid;
+	border-color: black;
+	text-align: left;
+	color: white;
+	
 }
 
 /*Formatações Footer */
 #footer {
+	positio:relative;
 	margin: 20px;
 	height: auto;
+	width:auto;
 	background-color: black;
 	color: white;
 	font-size: 14px;
 	text-align: center;
 	vertical-align: middle;
-	font-weight: normal
+	font-weight: normal;
+}
+
+
+#tabela1 {
+	align: "center";
+	border-color: DarkCyan;
+	border-width: thick;
+	border-style: solid
+	
+}
+#imagens{
+	max-width: 70%;
+
 }
