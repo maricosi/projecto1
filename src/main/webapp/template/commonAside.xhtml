@@ -7,6 +7,8 @@
 
 <h:head>
 	<h:outputStylesheet library="css" name="style.css" />
+	<script type="text/javascript" src="../resources/JS/soupt.js"/>
+
 </h:head>
 <body>
 	<ui:composition>
@@ -34,8 +36,19 @@
 
 				<h:commandButton id="Logout" value="Logout" action="#{login.logout}" />
 			</h:form>
+			
+			<figure id="figureaside">
+				<span class="trs next"></span>
+				<span class="trs prev"></span>
 
+				<div id="slider">
+				<a href="#" class="trs"><img src="../resources/images/torneiothumb.jpg" alt="Legenda da imagem 1" /></a>
+				<a href="#" class="trs"><img src="../resources/images/bilha.jpg" alt="Legenda da imagem 2" /></a>	
+				</div>
 
+				<figcaption></figcaption>
+			</figure>
+			
 		</aside>
 	</ui:composition>
 </body>
