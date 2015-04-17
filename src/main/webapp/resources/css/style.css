@@ -8,8 +8,8 @@
 }
 
 #page {
-	width: 1200px;
-	height: 200px;
+	width: 90%;
+	min-width: 600px;
 	position: relative;
 	margin: 20px auto;
 }
@@ -21,7 +21,7 @@
 	border-color: #E6E6E6;
 	box-shadow: 5px 5px 5px #888888;
 	margin: 20px 20px 0px;
-	height: 150px;
+	height: 200px;
 	background-image: url("/projecto1/resources/images/imagesheader.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -30,7 +30,7 @@
 #tituloHeader {
 	display: block;
 	font-size: 3em;
-	-webkit-margin-before: 100px;
+	-webkit-margin-before: 140px;
 	-webkit-margin-after: 0.67em;
 	-webkit-margin-start: 0px;
 	-webkit-margin-end: 0px;
@@ -247,7 +247,7 @@
 }
 
 /*Formatações Content */
-.content {
+/* .content {
 	float: left;
 	margin: 20px;
 	height: auto;
@@ -256,7 +256,7 @@
 	text-align: left;
 	color: black;
 	overflow: hidden;
-}
+} */
 
 #article {
 	border-style: solid;
@@ -280,7 +280,7 @@
 	box-shadow: 5px 5px 5px #888888;
 	padding: 15px;
 	background-color: LightYellow;
-	width: 23%;
+	width: 20%;
 	height: auto;
 	margin: 20px;
 	text-align:justify;

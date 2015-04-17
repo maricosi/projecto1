@@ -10,7 +10,25 @@
 <body>
 	<ui:composition>
 		<aside id="aside">
-			<h1>login</h1>
+			 <h:form>
+            <h2>Login:</h2>
+            <h:inputText id="username"
+                         title="Nome: "
+                         value="#{login.name}"
+                         required="true"
+                         requiredMessage="Erro: Escreva o seu username."
+                         maxlength="25" />
+            <p></p>
+            <h:commandButton id="Validar" value="Validar" 
+                             action="response" />
+            <h:commandButton id="apagar" value="Apagar" type="reset" />
+        </h:form>
+        <div class="messagecolor">
+            <h:messages showSummary="true" 
+                        showDetail="false"
+                        errorStyle="color: #d20005" 
+                        infoStyle="color: blue"/>
+        </div>
 		</aside>
 	</ui:composition>
 </body>
