@@ -1,7 +1,7 @@
 @CHARSET "UTF-8";
 
 #bodypagina {
-	background-image: url("/projecto1/resources/images/bw2.jpg");
+	background-image: url("/projecto1/resources/images/red.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -60,8 +60,9 @@
 	background: -o-linear-gradient(top, #ffffff 0%, #ffffff 100%);
 	background: -ms-linear-gradient(top, #ffffff 0%, #ffffff 100%);
 	background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
-	border-bottom: 2px solid #db000b;
+	border-bottom: 3px solid #db000b;
 	width: auto;
+	font-weight: 900;
 }
 
 #cssmenu:after, #cssmenu ul:after {
@@ -83,7 +84,7 @@
 	display: block;
 	font-family: Helvetica, Arial, Verdana, sans-serif;
 	padding: 19px 20px;
-	text-decoration: none;
+	text-decoration:none;
 }
 
 #cssmenu ul {
@@ -197,7 +198,7 @@
 #cssmenu .has-sub ul li a {
 	background: #db000b;
 	border-bottom: 1px dotted #ff0f1b;
-	font-size: 11px;
+	font-size: 12px;
 	filter: none;
 	display: block;
 	line-height: 120%;
@@ -253,7 +254,7 @@
 	border-style: solid;
 	border-color: black;
 	text-align: left;
-	color: white;
+	color: black;
 	overflow: hidden;
 }
 
@@ -263,12 +264,12 @@
 	border-color: #E6E6E6;
 	box-shadow: 5px 5px 5px #888888;
 	padding: 15px;
-	background-color: pink;
+	background-color: LightYellow;
 	width: 67%;
 	height: auto;
 	margin: 20px;
-	text-align:justify;
-	color: white;
+	text-align: justify;
+	color: black;
 }
 
 #aside {
@@ -278,12 +279,12 @@
 	border-color: #E6E6E6;
 	box-shadow: 5px 5px 5px #888888;
 	padding: 15px;
-	background-color: green;
+	background-color: LightYellow;
 	width: 23%;
 	height: auto;
 	margin: 20px;
 	text-align:justify;
-	color: white;
+	color: black;
 }
 
 /*Formatações Footer */
@@ -296,7 +297,7 @@
 	margin: 20px;
 	height: auto;
 	width: auto;
-	background-color: black;
+	background-color: #400000;
 	color: white;
 	font-size: 14px;
 	text-align: center;
