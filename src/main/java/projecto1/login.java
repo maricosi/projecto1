@@ -14,9 +14,7 @@ import javax.inject.Named;
 public class Login implements Serializable{
 
 	private boolean logged;
-	/**
-	 * 
-	 */
+
 	private static final long serialVersionUID = 1L;
 	private String name;
 
