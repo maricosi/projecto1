@@ -10,25 +10,28 @@
 <body>
 	<ui:composition>
 		<aside id="aside">
-			 <h:form>
-            <h2>Login:</h2>
-            <h:inputText id="username"
-                         title="Nome: "
-                         value="#{login.name}"
-                         required="true"
-                         requiredMessage="Erro: Escreva o seu username."
-                         maxlength="25" />
-            <p></p>
-            <h:commandButton id="Validar" value="Validar" 
-                             action="response" />
-            <h:commandButton id="apagar" value="Apagar" type="reset" />
-        </h:form>
-        <div class="messagecolor">
-            <h:messages showSummary="true" 
-                        showDetail="false"
-                        errorStyle="color: #d20005" 
-                        infoStyle="color: blue"/>
-        </div>
+			<h:form rendered="#{!login.logged}">
+				<h2>Login:</h2>
+				<h:inputText id="username" title="Nome: " value="#{login.name}"
+					required="true" requiredMessage="Erro: Escreva o seu username."
+					maxlength="25" />
+				<p></p>
+				<h:commandButton id="Validar" value="Validar" action="/index" />
+				<h:commandButton id="apagar" value="Apagar" type="reset" />
+			</h:form>
+			
+			
+			<div class="messagecolor">
+				<h:messages showSummary="true" showDetail="false"
+					errorStyle="color: #d20005" infoStyle="color: blue" />
+			</div>
+			
+			<h:outputText value="Benvindo #{login.name}!!" rendered="#{login.logged}" />
+			<h:form rendered="#{login.logged}">
+				<h:commandButton id="Logout" value="Logout"  action="#{login.logout}" />
+			</h:form>
+			
+			
 		</aside>
 	</ui:composition>
 </body>
