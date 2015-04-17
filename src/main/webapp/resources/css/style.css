@@ -1,7 +1,7 @@
 @CHARSET "UTF-8";
 
 #bodypagina {
-	/* background-image: url("/projecto1/resources/images/fundo.jpg"); */
+	background-image: url("/projecto1/resources/images/bw2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -16,10 +16,12 @@
 
 /*Formatações Header */
 #header {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #E6E6E6;
+	box-shadow: 5px 5px 5px #888888;
 	margin: 20px 20px 0px;
 	height: 150px;
-	border-style: solid;
-	border-color: black;
 	background-image: url("/projecto1/resources/images/imagesheader.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -43,8 +45,10 @@
 }
 
 #cssmenu {
-	border-left: solid black;
-	border-right: solid black;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #E6E6E6;
+	box-shadow: 5px 5px 5px #888888;
 	margin-right: 20px;
 	margin-left: 20px;
 	line-height: 1;
@@ -254,33 +258,40 @@
 }
 
 #article {
-	border-width: 3px;
 	border-style: solid;
+	border-width: 1px;
+	border-color: #E6E6E6;
+	box-shadow: 5px 5px 5px #888888;
+	padding: 15px;
 	background-color: pink;
-	width: 70%;
+	width: 67%;
 	height: auto;
 	margin: 20px;
-	border-color: black;
-	text-align: left;
+	text-align:justify;
 	color: white;
 }
 
 #aside {
 	float: right;
-	border-width: 3px;
 	border-style: solid;
+	border-width: 1px;
+	border-color: #E6E6E6;
+	box-shadow: 5px 5px 5px #888888;
+	padding: 15px;
 	background-color: green;
-	width: 25%;
+	width: 23%;
 	height: auto;
 	margin: 20px;
-	border-style: solid;
-	border-color: black;
-	text-align: left;
+	text-align:justify;
 	color: white;
 }
 
 /*Formatações Footer */
 #footer {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #E6E6E6;
+	box-shadow: 5px 5px 5px #888888;
 	positio: relative;
 	margin: 20px;
 	height: auto;
@@ -297,7 +308,8 @@
 	align: "center";
 	border-color: DarkCyan;
 	border-width: thick;
-	border-style: solid; margin-left : auto;
+	border-style: solid;
+	margin-left: auto;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -308,6 +320,7 @@
 	margin-right: auto;
 	max-width: 70%;
 }
-#legenda{
+
+#legenda {
 	text-align: center;
 }
