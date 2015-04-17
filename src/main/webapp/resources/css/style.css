@@ -303,11 +303,12 @@
 #tabela1 {
 	/* 	align: "center"; */
 	border-color: DarkCyan;
-	border-width: thick;
+	border-width: thin;
 	border-style: solid;
 	margin-left: auto;
 	margin-right: auto;
 	margin-left: auto;
+	text-align:center;
 }
 
 #imagens {
@@ -317,9 +318,7 @@
 	max-width: 70%;
 }
 
-#legenda {
-	text-align: center;
-}
+
 
 td, th {
 	border: solid 1px black;
