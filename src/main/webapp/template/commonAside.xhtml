@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:ui="http://java.sun.com/jsf/facelets"
@@ -19,19 +20,22 @@
 				<h:commandButton id="Validar" value="Validar" action="/index" />
 				<h:commandButton id="apagar" value="Apagar" type="reset" />
 			</h:form>
-			
-			
+
+
 			<div class="messagecolor">
 				<h:messages showSummary="true" showDetail="false"
 					errorStyle="color: #d20005" infoStyle="color: blue" />
 			</div>
-			
-			<h:outputText value="Benvindo #{login.name}!!" rendered="#{login.logged}" />
+			<h1>
+				<h:outputText value="Benvindo #{login.name}!!"
+					rendered="#{login.logged}" />
+			</h1>
 			<h:form rendered="#{login.logged}">
-				<h:commandButton id="Logout" value="Logout"  action="#{login.logout}" />
+
+				<h:commandButton id="Logout" value="Logout" action="#{login.logout}" />
 			</h:form>
-			
-			
+
+
 		</aside>
 	</ui:composition>
 </body>
