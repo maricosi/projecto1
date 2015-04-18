@@ -40,7 +40,7 @@
 	text-align: left;
 }
 
-/* Formatação Navegação*/
+/*Navegação*/
 #cssmenu ul, #cssmenu li, #cssmenu span, #cssmenu a {
 	margin: 0;
 	padding: 0;
@@ -266,8 +266,6 @@
 	color: black;
 }
 
-
-/*Formatações Aside */
 #aside {
 	float: right;
 	border-style: solid;
@@ -282,15 +280,6 @@
 	text-align: center;
 	color: black;
 }
-/* Formatação imagem aside*/
-aside img{
-	width:95%;
-	padding-top: 5px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-
 
 /*Formatações Footer */
 #footer {
@@ -310,7 +299,6 @@ aside img{
 	font-weight: normal;
 }
 
-/*Formatações tabelas */
 #tabela1 {
 	/* 	align: "center"; */
 	border-color: DarkCyan;
@@ -322,7 +310,6 @@ aside img{
 	text-align: center;
 }
 
-/*Formatações figuras e respectiva legenda */
 figure {
 	margin-left: auto;
 	margin-right: auto;
@@ -330,10 +317,8 @@ figure {
 
 figcaption {
 	text-align: center;
-	font-style: none;
 }
 
-/*Formatações de imagens */
 #imagens {
 	display: block;
 	margin-left: auto;
@@ -370,8 +355,6 @@ td, th {
 	border: solid 1px black;
 }
 
-
-/*Formatações multimedia */
 iframe {
 	margin: auto;
 	display: block;
@@ -382,38 +365,22 @@ audio {
 	display: block;
 }
 
-
-
 tr {
 	margin: 5px;
 }
 
-/*Formatações tipo letra */
 p, h {
 	font-family: Helvetica, Verdana, sans-serif;
 }
 
-
-/*Formatações h1 */
 h1 {
 	text-align: center;
 	font-size: 28px;
 	font-weight: 900;
 }
 
-/*Formatações h2 */
 h2 {
 	font-size: 20px;
-}
-
-
-/* Formatação do Slideshow  */
-.slideshow img{
-	width: 400px;
-	height: 206px;
-	margin-left: auto;
-	margin-right: auto;
-	
 }
 
 
