@@ -7,7 +7,7 @@
 
 <h:head>
 	<h:outputStylesheet library="css" name="style.css" />
-	<script type="text/javascript" src="../resources/JS/soupt.js"/>
+	<script type="text/javascript" src="../resources/JS/soupt.js" />
 
 </h:head>
 <body>
@@ -35,8 +35,12 @@
 			<h:form rendered="#{login.logged}">
 
 				<h:commandButton id="Logout" value="Logout" action="#{login.logout}" />
+				<p></p>
 			</h:form>
-			
+			<a
+				href="${facesContext.externalContext.requestContextPath}/pages/proximotorneio.xhtml"><img
+				src="${facesContext.externalContext.requestContextPath}/resources/images/torneiosueca.jpg"/>
+			</a>
 		</aside>
 	</ui:composition>
 </body>
