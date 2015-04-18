@@ -1,7 +1,7 @@
 @CHARSET "UTF-8";
 
 #bodypagina {
-	background-image: url("/projecto1/resources/images/red.jpg");
+	background-image: url("../resources/images/red.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -22,7 +22,7 @@
 	box-shadow: 5px 5px 5px #888888;
 	margin: 20px 20px 0px;
 	height: 200px;
-	background-image: url("/projecto1/resources/images/imagesheader.jpg");
+	background-image: url("../resources/images/imagesheader.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
@@ -298,7 +298,6 @@ aside img{
 	border-width: 1px;
 	border-color: #E6E6E6;
 	box-shadow: 5px 5px 5px #888888;
-	positio: relative;
 	margin: 20px;
 	height: auto;
 	width: auto;
